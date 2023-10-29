@@ -1,0 +1,199 @@
+.big-comment-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 1000px; */
+    /* margin: 0 50px; */
+    margin-top: 30px;
+    cursor: default;
+    transition: 0.3s;
+}
+
+.big-comment-container .big-comment {
+    width: auto;
+    display: flex;
+    /* padding: 25px; */
+}
+
+.big-comment-container .big-comment .big-comment-image {
+    margin: 25px;
+}
+
+.big-comment-container .big-comment .big-comment-content {
+    margin: 25px;
+}
+
+.big-comment-container .big-comment .big-comment-text .volanta {
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.big-comment-container .big-comment .big-comment-text .opinion-destacada {
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.big-comment-container .big-comment .big-comment-firma {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.big-comment-container .big-comment .big-comment-firma .firma-image {
+    padding: 20px 20px 20px 0;
+}
+
+.big-comment-container .big-comment .big-comment-firma .firma-image img {
+    height: auto;
+    width: auto;
+}
+
+.big-comment-container .big-comment .big-comment-firma .firma-text h3{
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+
+.big-comment-container .big-comment .big-comment-firma .firma-text h5{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-comment-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    transition: 0.3s;
+    cursor: default;
+    transition: 0.3s;
+}
+
+.card-comment-container .card-comment {
+    padding: 30px;
+    background: var(--fourth-color);
+    border-radius: 15px;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.card-comment-container .card-comment .comment-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--fifth-color);
+    margin-bottom: 24px;
+}
+
+.card-comment-container .card-comment .comment-firma {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.card-comment-container .card-comment .comment-firma .comment-firma-image {
+    display: flex;
+    padding-right: 15px;
+}
+
+.card-comment-container .card-comment .comment-firma .comment-firma-image img {
+    height: 45px;
+    width: auto;
+    display: flex;
+}
+
+.card-comment-container .card-comment .comment-firma .comment-firma-text h4 {
+    font-size: 14px;
+    color: var(--fifth-color);
+    padding: 5px 0;
+}
+
+.card-comment-container .card-comment .comment-firma .comment-firma-text h6 {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--third-color);
+    padding-bottom: 5px;
+}
+
+@media (max-width: 960px) {
+    .big-comment-container {
+        width: 90%;
+        
+    }
+
+    .card-comment-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-comment-container .card-comment {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    .big-comment-container .big-comment .big-comment-text .opinion-destacada {
+        font-size: 28px;
+    }
+    
+}
+
+@media (max-width: 760px) {
+    .big-comment-container {
+        width: 100%;
+    }
+
+    .card-comment-container {
+        width: 90%;
+        
+    }
+
+    .card-comment-container .card-comment {
+        width: 100%;
+        margin: 0 15px 15px 20px;
+    }
+
+
+}
+
+@media (max-width: 576px) {
+
+    .big-comment-container {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .big-comment-container .big-comment {
+        margin-top: 0;
+        padding-top: 0;
+        flex-direction: column;
+    }
+
+    .big-comment-container .big-comment .big-comment-image{
+        margin-top: 0;
+        margin-bottom: 15px;
+        padding-top: 0;
+        height: 80px;
+        width: auto;
+    }
+
+    .big-comment-container .big-comment .big-comment-text .opinion-destacada {
+        font-size: 26px;
+    }
+
+    .card-comment-container {
+        width: 100%;
+    }
+
+    .card-comment-container .card-comment {
+        width: 100%;
+        /* padding: 0; */
+        margin: 0 0 30px 0;
+    }
+
+
+}
